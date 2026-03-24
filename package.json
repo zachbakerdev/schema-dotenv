@@ -1,13 +1,13 @@
 {
   "name": "schema-dotenv",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight library for validating environment variables using a schema.",
   "author": "Zach Baker",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zachbakerdev/schema-dotenv.git"
+    "url": "git+https://github.com/zachbakerdev/schema-dotenv.git"
   },
   "keywords": ["schema", "environment", "variable", "dotenv", "typescript"],
   "main": "./dist/index.js",
