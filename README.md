@@ -1,10 +1,10 @@
-# @epikaleo/env
+# schema-dotenv
 
 A simple environment variable manager for Node.js applications.
 
 ## Description
 
-`@epikaleo/env` provides a way to manage environment variables using a declarative schema in a type-safe way.
+`schema-dotenv` provides a way to manage environment variables using a declarative schema in a type-safe way.
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ A simple environment variable manager for Node.js applications.
 ### Installing
 
 ```bash
-npm install @epikaleo/env
+npm install schema-dotenv
 ```
 
 ### Usage
@@ -22,7 +22,7 @@ npm install @epikaleo/env
 ```typescript
 // env.ts
 
-import configure from '@epikaleo/env';
+import configure from 'schema-dotenv';
 
 const env = configure({
   EXAMPLE_VAR: {
